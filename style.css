@@ -55,9 +55,9 @@ input.menu-toggle {
     opacity: 0;
 }
 
-input.menu-toggle:checked ~ .mainNavigationLists {
+input.menu-toggle:checked ~ .mainNavigationList {
     /*het menu schuift naar binnen bij klik op .menu-toggle checkbox*/
-    opacity: 100;
+    opacity: 1;
     /*volledig zichtbaar*/
     left: 0;
 }
@@ -228,4 +228,16 @@ max-width: 50ch;
 
 .footer{
     background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    padding-top:
+    padding-bottom
+}
+
+.social_media{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    padding-left: 
+    padding-right
 }
