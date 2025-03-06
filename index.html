@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,14 @@
     <link rel="stylesheet" href="style.css">
     <script src="js/main.js" defer></script>
 </head>
+
 <body id="js--body">
     <header class="header">
         <h1 class="headerTitle">
             Paper Mario Franchise
         </h1>
     </header>
+
     <nav id="js--nav" class="mainNavigation">
         <input type="checkbox" name="menu-toggle" class="menu-toggle">
         <div class="hamburger">
@@ -28,47 +31,82 @@
             <li class="mainNavigationListItem"><a href="">Collection #3</a></li>
         </ul>
     </nav>
+
     <main>
-    <figure class="bigFigure">
-        <img src="img/fav_place.jpg" alt="Mijn favoriete Paper Mario plek, van iedere game">
-    </figure>
-    <section class="collections">
-<h2 class="collectionsTitle">
-6 Paper Mario Games
-</h2>
-<ul class="collectionsList">
-    <li class="collectionsListItem"><img src="img/paper_mario.jpg" alt="Eerste paper mario game"></li>
-    <li class="collectionsListItem"><img src="img/thousand.webp" alt="Tweede paper mario game"></li>
-    <li class="collectionsListItem"><img src="img/Super_Paper_Mario_cover.jpg" alt="Derde paper mario game"></li>
-    <li class="collectionsListItem"><img src="img/sticker.jpg" alt="de slechtste game ooit created en de 4de"></li> <!-- Deze game verdient geen eens deze tekst of een foto -->
-    <li class="collectionsListItem"><img src="img/paper-mario-color-splash.webp" alt="de 5de game, en een klein beetje beter dan de 4de"></li>
-    <li class="collectionsListItem"><img src="img/paper-mario-origami-king.webp" alt="De zesde game, en de eerste paper mario game dat ik heb gespeeld"></li>
-    <li class="collectionsListItem"><img src="img/thousand_remake.jpg" alt="de zevende en tot nu toe laatste game, en mijn favoriete paper mario game"></li>
-</ul>
-    </section>
-    <section class="info">
-        <div class="block">
-            <h2 class="infoTitle">
-                Mijn favoriete
+        <figure class="bigFigure">
+            <img src="img/fav_place.jpg" alt="Mijn favoriete Paper Mario plek, van iedere game">
+        </figure>
+
+        <section class="collections">
+            <h2 class="collectionsTitle">
+                6 Paper Mario Games
             </h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum fuga minus blanditiis saepe error quis et ullam recusandae, rem odit porro, labore laborum quisquam exercitationem vel harum fugit commodi illo!
-            </p>
-        </div>
-        <div class="block">
-            <h2 class="infoTitle">
-                Mario&Luigi paper jam
-            </h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor facilis quibusdam expedita nesciunt, autem quia optio error repudiandae? Minima dolorum vel iure perspiciatis esse in modi possimus labore sed officiis?
-            </p>
-        </div>
-    </section>
-</main>
-<footer class="footer">
-    Julien Karch
-    <img class="social_media" src="img/twitter.png" alt="twitter logo">
-    <img class="social_media" src="img/instagram.jpg" alt="instagram logo">
-</footer>
+            <ul class="collectionsList">
+                <li class="collectionsListItem"><img src="img/paper_mario.jpg" alt="Eerste paper mario game"></li>
+                <li class="collectionsListItem"><img src="img/thousand.webp" alt="Tweede paper mario game"></li>
+                <li class="collectionsListItem"><img src="img/Super_Paper_Mario_cover.jpg" alt="Derde paper mario game">
+                </li>
+                <li class="collectionsListItem"><img src="img/sticker.jpg"
+                        alt="de slechtste game ooit created en de 4de"></li>
+                <!-- Deze game verdient geen eens deze tekst of een foto -->
+                <li class="collectionsListItem"><img src="img/paper-mario-color-splash.webp"
+                        alt="de 5de game, en een klein beetje beter dan de 4de"></li>
+                <li class="collectionsListItem"><img src="img/paper-mario-origami-king.webp"
+                        alt="De zesde game, en de eerste paper mario game dat ik heb gespeeld"></li>
+                <li class="collectionsListItem"><img src="img/thousand_remake.jpg"
+                        alt="de zevende en tot nu toe laatste game, en mijn favoriete paper mario game"></li>
+            </ul>
+
+        </section>
+        <section class="info">
+            <div class="block">
+                <h2 class="infoTitle">
+                    Mijn favoriete
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum fuga minus blanditiis saepe error quis
+                    et ullam recusandae, rem odit porro, labore laborum quisquam exercitationem vel harum fugit commodi
+                    illo!
+                </p>
+            </div>
+            <div class="block">
+                <h2 class="infoTitle">
+                    Mario&Luigi paper jam
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor facilis quibusdam expedita nesciunt,
+                    autem quia optio error repudiandae? Minima dolorum vel iure perspiciatis esse in modi possimus
+                    labore sed officiis?
+                </p>
+            </div>
+
+            <div class="block">
+                <form>
+                    <div>
+                        <label for="naam">Naam</label>
+                        <input id="naam" type="text">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input id="email" type="email">
+                    </div>
+                    <div>
+                        <label for="vraag">Vraag / opmerking</label>
+                        <textarea id="vraag" class="bigText"></textarea>
+                    </div>
+                    <input class="submit" type="submit" value="Verzenden">
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+    <footer class="footer">
+        Julien Karch
+        <img class="social_media" src="img/twitter.png" alt="twitter logo">
+        <img class="social_media" src="img/instagram.jpg" alt="instagram logo">
+    </footer>
+
 </body>
+
 </html>
