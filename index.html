@@ -59,24 +59,22 @@
 
         </section>
         <section class="info">
-            <div class="block">
+            <div class="card card--slider">
                 <h2 class="infoTitle">
-                    Mijn favoriete
-                </h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum fuga minus blanditiis saepe error quis
-                    et ullam recusandae, rem odit porro, labore laborum quisquam exercitationem vel harum fugit commodi
-                    illo!
-                </p>
+                    <h2 id="js--rangeValue">0</h2>
+                 <input id="js--slider" type="range" min="1" max="4" step="1">
             </div>
             <div class="block">
-                <h2 class="infoTitle">
-                    Mario&Luigi paper jam
                 </h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor facilis quibusdam expedita nesciunt,
-                    autem quia optio error repudiandae? Minima dolorum vel iure perspiciatis esse in modi possimus
-                    labore sed officiis?
+                    <div>
+                        <span class="timer_text" id="js--minutesTimer">0</span>
+                        <span class="timer_text">:</span>
+                        <span class="timer_text" id="js--secondsTimer">0</span>
+                    </div>
+                    <button class="stopwatch_button" id="js--start">Start</button>
+                    <button class="stopwatch_button" id="js--stop">Stop</button>
+                    <button class="stopwatch_button" id="js--reset">Reset</button>
                 </p>
             </div>
 
@@ -97,6 +95,11 @@
                     <input class="submit" type="submit" value="Verzenden">
                 </form>
             </div>
+
+            <div class="card card--dynamisch">
+           <img src="" alt="">
+           <p id="js--text"></p>
+        </div>
 
         </section>
 
