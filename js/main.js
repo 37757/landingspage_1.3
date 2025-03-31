@@ -55,10 +55,17 @@ slider.oninput = function(){
     body2.style.fontSize = slider.value + "rem";
 }
 
-let data = {
-"text": "Mr L van super paper mario",
-"img": "/img/dynamisch.webp", 
-};
+const paragraph = document.getElementById("js--text");
+const paragraph2 = document.getElementById("js--img");
 
-const text = document.getElementById("js--tekst");
-text.innerText = data.text;
+let data = fetch("../data.json").then(
+    function(binnenGekomenData){
+console.log(binnenGekomenData);
+return binnenGekomenData.json();
+    }).then(
+        function(echteData){
+            paragraph.innerHTML = echteData.text;
+            paragraph2.src = echteData.img;
+        }
+    );
+
